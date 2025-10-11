@@ -1,0 +1,1177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.14.3</Version>
+  <Author>Daniel Wright</Author>
+ </Creator>
+ <Manufacturer>beamZ</Manufacturer>
+ <Model>STB448</Model>
+ <Type>LED Bar (Pixels)</Type>
+ <Channel Name="DIM" Preset="IntensityMasterDimmer"/>
+ <Channel Name="STROB">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="9">No Function</Capability>
+  <Capability Min="10" Max="255">Strobe from slow to fast</Capability>
+ </Channel>
+ <Channel Name="RED" Preset="IntensityRed"/>
+ <Channel Name="GREEN" Preset="IntensityGreen"/>
+ <Channel Name="BLUE" Preset="IntensityBlue"/>
+ <Channel Name="AMBER" Preset="IntensityAmber"/>
+ <Channel Name="WHITE" Preset="IntensityWhite"/>
+ <Channel Name="STROB_ACW">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="9">No Function</Capability>
+  <Capability Min="10" Max="255">Strobe Amber/Cool White from slow to fast</Capability>
+ </Channel>
+ <Channel Name="RGB_FX">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="2">Effect 1</Capability>
+  <Capability Min="3" Max="5">Effect 2</Capability>
+  <Capability Min="6" Max="8">Effect 3</Capability>
+  <Capability Min="9" Max="11">Effect 4</Capability>
+  <Capability Min="12" Max="14">Effect 5</Capability>
+  <Capability Min="15" Max="17">Effect 6</Capability>
+  <Capability Min="18" Max="20">Effect 7</Capability>
+  <Capability Min="21" Max="23">Effect 8</Capability>
+  <Capability Min="24" Max="26">Effect 9</Capability>
+  <Capability Min="27" Max="29">Effect 10</Capability>
+  <Capability Min="30" Max="32">Effect 11</Capability>
+  <Capability Min="33" Max="35">Effect 12</Capability>
+  <Capability Min="36" Max="38">Effect 13</Capability>
+  <Capability Min="39" Max="41">Effect 14</Capability>
+  <Capability Min="42" Max="44">Effect 15</Capability>
+  <Capability Min="45" Max="47">Effect 16</Capability>
+  <Capability Min="48" Max="50">Effect 17</Capability>
+  <Capability Min="51" Max="53">Effect 18</Capability>
+  <Capability Min="54" Max="56">Effect 19</Capability>
+  <Capability Min="57" Max="59">Effect 20</Capability>
+  <Capability Min="60" Max="62">Effect 21</Capability>
+  <Capability Min="63" Max="65">Effect 22</Capability>
+  <Capability Min="66" Max="68">Effect 23</Capability>
+  <Capability Min="69" Max="71">Effect 24</Capability>
+  <Capability Min="72" Max="74">Effect 25</Capability>
+  <Capability Min="75" Max="77">Effect 26</Capability>
+  <Capability Min="78" Max="80">Effect 27</Capability>
+  <Capability Min="81" Max="83">Effect 28</Capability>
+  <Capability Min="84" Max="86">Effect 29</Capability>
+  <Capability Min="87" Max="89">Effect 30</Capability>
+  <Capability Min="90" Max="92">Effect 31</Capability>
+  <Capability Min="93" Max="95">Effect 32</Capability>
+  <Capability Min="96" Max="98">Effect 33</Capability>
+  <Capability Min="99" Max="101">Effect 34</Capability>
+  <Capability Min="102" Max="104">Effect 35</Capability>
+  <Capability Min="105" Max="107">No function</Capability>
+  <Capability Min="108" Max="110">Effect 36</Capability>
+  <Capability Min="111" Max="113">Effect 37</Capability>
+  <Capability Min="114" Max="116">Effect 38</Capability>
+  <Capability Min="117" Max="119">Effect 39</Capability>
+  <Capability Min="120" Max="122">Effect 40</Capability>
+  <Capability Min="123" Max="125">Effect 41</Capability>
+  <Capability Min="126" Max="128">Effect 42</Capability>
+  <Capability Min="129" Max="131">Effect 43</Capability>
+  <Capability Min="132" Max="134">Effect 44</Capability>
+  <Capability Min="135" Max="137">Effect 45</Capability>
+  <Capability Min="138" Max="140">Effect 46</Capability>
+  <Capability Min="141" Max="143">Effect 47</Capability>
+  <Capability Min="144" Max="146">Effect 48</Capability>
+  <Capability Min="147" Max="149">Effect 49</Capability>
+  <Capability Min="150" Max="152">Effect 50</Capability>
+  <Capability Min="153" Max="155">Effect 51</Capability>
+  <Capability Min="156" Max="158">Effect 52</Capability>
+  <Capability Min="159" Max="161">Effect 53</Capability>
+  <Capability Min="162" Max="164">Effect 54</Capability>
+  <Capability Min="165" Max="167">Effect 55</Capability>
+  <Capability Min="168" Max="170">Effect 56</Capability>
+  <Capability Min="171" Max="173">Effect 57</Capability>
+  <Capability Min="174" Max="176">Effect 58</Capability>
+  <Capability Min="177" Max="179">Effect 59</Capability>
+  <Capability Min="180" Max="182">Effect 60</Capability>
+  <Capability Min="183" Max="185">Effect 61</Capability>
+  <Capability Min="186" Max="188">Effect 62</Capability>
+  <Capability Min="189" Max="191">Effect 63</Capability>
+  <Capability Min="192" Max="194">Effect 64</Capability>
+  <Capability Min="195" Max="197">Effect 65</Capability>
+  <Capability Min="198" Max="200">Effect 66</Capability>
+  <Capability Min="201" Max="203">Effect 67</Capability>
+  <Capability Min="204" Max="206">Effect 68</Capability>
+  <Capability Min="207" Max="209">Auto Run</Capability>
+  <Capability Min="210" Max="212">Sound Effect 1</Capability>
+  <Capability Min="213" Max="215">Sound Effect 2</Capability>
+  <Capability Min="216" Max="255">Sound Effect 3</Capability>
+ </Channel>
+ <Channel Name="FX_SPEED_PGM">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="255">Program speed from slow to fast</Capability>
+ </Channel>
+ <Channel Name="BG_COL">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="11">RED:000 GREEN:000 BLUE:000</Capability>
+  <Capability Min="12" Max="23">RED:050 GREEN:000 BLUE:000</Capability>
+  <Capability Min="24" Max="35">RED:150 GREEN:000 BLUE:000</Capability>
+  <Capability Min="36" Max="47">RED:255 GREEN:000 BLUE:000</Capability>
+  <Capability Min="48" Max="59">RED:000 GREEN:050 BLUE:000</Capability>
+  <Capability Min="60" Max="71">RED:000 GREEN:150 BLUE:000</Capability>
+  <Capability Min="72" Max="83">RED:000 GREEN:255 BLUE:000</Capability>
+  <Capability Min="84" Max="95">RED:000 GREEN:000 BLUE:050</Capability>
+  <Capability Min="96" Max="107">RED:000 GREEN:000 BLUE:150</Capability>
+  <Capability Min="108" Max="119">RED:000 GREEN:000 BLUE:255</Capability>
+  <Capability Min="120" Max="131">RED:050 GREEN:050 BLUE:000</Capability>
+  <Capability Min="132" Max="143">RED:150 GREEN:150 BLUE:000</Capability>
+  <Capability Min="144" Max="155">RED:255 GREEN:255 BLUE:000</Capability>
+  <Capability Min="156" Max="167">RED:050 GREEN:000 BLUE:050</Capability>
+  <Capability Min="168" Max="179">RED:150 GREEN:000 BLUE:150</Capability>
+  <Capability Min="180" Max="191">RED:255 GREEN:000 BLUE:255</Capability>
+  <Capability Min="192" Max="203">RED:000 GREEN:050 BLUE:050</Capability>
+  <Capability Min="204" Max="215">RED:000 GREEN:150 BLUE:150</Capability>
+  <Capability Min="216" Max="227">RED:000 GREEN:255 BLUE:255</Capability>
+  <Capability Min="228" Max="239">RED:020 GREEN:020 BLUE:020</Capability>
+  <Capability Min="240" Max="251">RED:060 GREEN:060 BLUE:060</Capability>
+  <Capability Min="252" Max="255">RED:100 GREEN:100 BLUE:100</Capability>
+ </Channel>
+ <Channel Name="FX">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="5">No function</Capability>
+  <Capability Min="6" Max="11">Effect 1</Capability>
+  <Capability Min="12" Max="18">Effect 2</Capability>
+  <Capability Min="216" Max="221">Effect 3</Capability>
+  <Capability Min="222" Max="255">Auto effect</Capability>
+ </Channel>
+ <Channel Name="FX_SPEED_ACW">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="255">Speed ACW Effect</Capability>
+ </Channel>
+ <Channel Name="RED_1">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Segment 1 Dimmer Red (0-100%)</Capability>
+ </Channel>
+ <Channel Name="GREEN_1">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Segment 1 Dimmer Green (0-100%)</Capability>
+ </Channel>
+ <Channel Name="BLUE_1">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Segment 1 Dimmer Blue (0-100%)</Capability>
+ </Channel>
+ <Channel Name="RED_2">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Segment 2 Dimmer Red (0-100%)</Capability>
+ </Channel>
+ <Channel Name="GREEN_2">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Segment 2 Dimmer Green (0-100%)</Capability>
+ </Channel>
+ <Channel Name="BLUE_2">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Segment 2 Dimmer Blue (0-100%)</Capability>
+ </Channel>
+ <Channel Name="RED_3">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Segment 3 Dimmer Red (0-100%)</Capability>
+ </Channel>
+ <Channel Name="GREEN_3">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Segment 3 Dimmer Green (0-100%)</Capability>
+ </Channel>
+ <Channel Name="BLUE_3">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Segment 3 Dimmer Blue (0-100%)</Capability>
+ </Channel>
+ <Channel Name="RED_4">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Segment 4 Dimmer Red (0-100%)</Capability>
+ </Channel>
+ <Channel Name="GREEN_4">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Segment 4 Dimmer Green (0-100%)</Capability>
+ </Channel>
+ <Channel Name="BLUE_4">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Segment 4 Dimmer Blue (0-100%)</Capability>
+ </Channel>
+ <Channel Name="RED_5">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Segment 5 Dimmer Red (0-100%)</Capability>
+ </Channel>
+ <Channel Name="GREEN_5">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Segment 5 Dimmer Green (0-100%)</Capability>
+ </Channel>
+ <Channel Name="BLUE_5">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Segment 5 Dimmer Blue (0-100%)</Capability>
+ </Channel>
+ <Channel Name="RED_6">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Segment 6 Dimmer Red (0-100%)</Capability>
+ </Channel>
+ <Channel Name="GREEN_6">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Segment 6 Dimmer Green (0-100%)</Capability>
+ </Channel>
+ <Channel Name="BLUE_6">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Segment 6 Dimmer Blue (0-100%)</Capability>
+ </Channel>
+ <Channel Name="RED_7">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Segment 7 Dimmer Red (0-100%)</Capability>
+ </Channel>
+ <Channel Name="GREEN_7">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Segment 7 Dimmer Green (0-100%)</Capability>
+ </Channel>
+ <Channel Name="BLUE_7">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Segment 7 Dimmer Blue (0-100%)</Capability>
+ </Channel>
+ <Channel Name="RED_8">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Segment 8 Dimmer Red (0-100%)</Capability>
+ </Channel>
+ <Channel Name="GREEN_8">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Segment 8 Dimmer Green (0-100%)</Capability>
+ </Channel>
+ <Channel Name="BLUE_8">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Segment 8 Dimmer Blue (0-100%)</Capability>
+ </Channel>
+ <Channel Name="RED_9">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Segment 9 Dimmer Red (0-100%)</Capability>
+ </Channel>
+ <Channel Name="GREEN_9">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Segment 9 Dimmer Green (0-100%)</Capability>
+ </Channel>
+ <Channel Name="BLUE_9">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Segment 9 Dimmer Blue (0-100%)</Capability>
+ </Channel>
+ <Channel Name="RED_10">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Segment 10 Dimmer Red (0-100%)</Capability>
+ </Channel>
+ <Channel Name="GREEN_10">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Segment 10 Dimmer Green (0-100%)</Capability>
+ </Channel>
+ <Channel Name="BLUE_10">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Segment 10 Dimmer Blue (0-100%)</Capability>
+ </Channel>
+ <Channel Name="RED_11">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Segment 11 Dimmer Red (0-100%)</Capability>
+ </Channel>
+ <Channel Name="GREEN_11">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Segment 11 Dimmer Green (0-100%)</Capability>
+ </Channel>
+ <Channel Name="BLUE_11">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Segment 11 Dimmer Blue (0-100%)</Capability>
+ </Channel>
+ <Channel Name="RED_12">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Segment 12 Dimmer Red (0-100%)</Capability>
+ </Channel>
+ <Channel Name="GREEN_12">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Segment 12 Dimmer Green (0-100%)</Capability>
+ </Channel>
+ <Channel Name="BLUE_12">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Segment 12 Dimmer Blue (0-100%)</Capability>
+ </Channel>
+ <Channel Name="RED_13">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Segment 13 Dimmer Red (0-100%)</Capability>
+ </Channel>
+ <Channel Name="GREEN_13">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Segment 13 Dimmer Green (0-100%)</Capability>
+ </Channel>
+ <Channel Name="BLUE_13">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Segment 13 Dimmer Blue (0-100%)</Capability>
+ </Channel>
+ <Channel Name="RED_14">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Segment 14 Dimmer Red (0-100%)</Capability>
+ </Channel>
+ <Channel Name="GREEN_14">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Segment 14 Dimmer Green (0-100%)</Capability>
+ </Channel>
+ <Channel Name="BLUE_14">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Segment 14 Dimmer Blue (0-100%)</Capability>
+ </Channel>
+ <Channel Name="RED_15">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Segment 15 Dimmer Red (0-100%)</Capability>
+ </Channel>
+ <Channel Name="GREEN_15">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Segment 15 Dimmer Green (0-100%)</Capability>
+ </Channel>
+ <Channel Name="BLUE_15">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Segment 15 Dimmer Blue (0-100%)</Capability>
+ </Channel>
+ <Channel Name="RED_16">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Segment 16 Dimmer Red (0-100%)</Capability>
+ </Channel>
+ <Channel Name="GREEN_16">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Segment 16 Dimmer Green (0-100%)</Capability>
+ </Channel>
+ <Channel Name="BLUE_16">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Segment 16 Dimmer Blue (0-100%)</Capability>
+ </Channel>
+ <Channel Name="RED_17">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Segment 17 Dimmer Red (0-100%)</Capability>
+ </Channel>
+ <Channel Name="GREEN_17">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Segment 17 Dimmer Green (0-100%)</Capability>
+ </Channel>
+ <Channel Name="BLUE_17">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Segment 17 Dimmer Blue (0-100%)</Capability>
+ </Channel>
+ <Channel Name="RED_18">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Segment 18 Dimmer Red (0-100%)</Capability>
+ </Channel>
+ <Channel Name="GREEN_18">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Segment 18 Dimmer Green (0-100%)</Capability>
+ </Channel>
+ <Channel Name="BLUE_18">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Segment 18 Dimmer Blue (0-100%)</Capability>
+ </Channel>
+ <Channel Name="RED_19">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Segment 19 Dimmer Red (0-100%)</Capability>
+ </Channel>
+ <Channel Name="GREEN_19">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Segment 19 Dimmer Green (0-100%)</Capability>
+ </Channel>
+ <Channel Name="BLUE_19">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Segment 19 Dimmer Blue (0-100%)</Capability>
+ </Channel>
+ <Channel Name="RED_20">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Segment 20 Dimmer Red (0-100%)</Capability>
+ </Channel>
+ <Channel Name="GREEN_20">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Segment 20 Dimmer Green (0-100%)</Capability>
+ </Channel>
+ <Channel Name="BLUE_20">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Segment 20 Dimmer Blue (0-100%)</Capability>
+ </Channel>
+ <Channel Name="RED_21">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Segment 21 Dimmer Red (0-100%)</Capability>
+ </Channel>
+ <Channel Name="GREEN_21">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Segment 21 Dimmer Green (0-100%)</Capability>
+ </Channel>
+ <Channel Name="BLUE_21">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Segment 21 Dimmer Blue (0-100%)</Capability>
+ </Channel>
+ <Channel Name="RED_22">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Segment 22 Dimmer Red (0-100%)</Capability>
+ </Channel>
+ <Channel Name="GREEN_22">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Segment 22 Dimmer Green (0-100%)</Capability>
+ </Channel>
+ <Channel Name="BLUE_22">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Segment 22 Dimmer Blue (0-100%)</Capability>
+ </Channel>
+ <Channel Name="RED_23">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Segment 23 Dimmer Red (0-100%)</Capability>
+ </Channel>
+ <Channel Name="GREEN_23">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Segment 23 Dimmer Green (0-100%)</Capability>
+ </Channel>
+ <Channel Name="BLUE_23">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Segment 23 Dimmer Blue (0-100%)</Capability>
+ </Channel>
+ <Channel Name="RED_24">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Segment 24 Dimmer Red (0-100%)</Capability>
+ </Channel>
+ <Channel Name="GREEN_24">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Segment 24 Dimmer Green (0-100%)</Capability>
+ </Channel>
+ <Channel Name="BLUE_24">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Segment 24 Dimmer Blue (0-100%)</Capability>
+ </Channel>
+ <Channel Name="RED_25">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Segment 25 Dimmer Red (0-100%)</Capability>
+ </Channel>
+ <Channel Name="GREEN_25">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Segment 25 Dimmer Green (0-100%)</Capability>
+ </Channel>
+ <Channel Name="BLUE_25">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Segment 25 Dimmer Blue (0-100%)</Capability>
+ </Channel>
+ <Channel Name="RED_26">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Segment 26 Dimmer Red (0-100%)</Capability>
+ </Channel>
+ <Channel Name="GREEN_26">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Segment 26 Dimmer Green (0-100%)</Capability>
+ </Channel>
+ <Channel Name="BLUE_26">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Segment 26 Dimmer Blue (0-100%)</Capability>
+ </Channel>
+ <Channel Name="RED_27">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Segment 27 Dimmer Red (0-100%)</Capability>
+ </Channel>
+ <Channel Name="GREEN_27">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Segment 27 Dimmer Green (0-100%)</Capability>
+ </Channel>
+ <Channel Name="BLUE_27">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Segment 27 Dimmer Blue (0-100%)</Capability>
+ </Channel>
+ <Channel Name="RED_28">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Segment 28 Dimmer Red (0-100%)</Capability>
+ </Channel>
+ <Channel Name="GREEN_28">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Segment 28 Dimmer Green (0-100%)</Capability>
+ </Channel>
+ <Channel Name="BLUE_28">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Segment 28 Dimmer Blue (0-100%)</Capability>
+ </Channel>
+ <Channel Name="RED_29">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Segment 29 Dimmer Red (0-100%)</Capability>
+ </Channel>
+ <Channel Name="GREEN_29">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Segment 29 Dimmer Green (0-100%)</Capability>
+ </Channel>
+ <Channel Name="BLUE_29">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Segment 29 Dimmer Blue (0-100%)</Capability>
+ </Channel>
+ <Channel Name="RED_30">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Segment 30 Dimmer Red (0-100%)</Capability>
+ </Channel>
+ <Channel Name="GREEN_30">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Segment 30 Dimmer Green (0-100%)</Capability>
+ </Channel>
+ <Channel Name="BLUE_30">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Segment 30 Dimmer Blue (0-100%)</Capability>
+ </Channel>
+ <Channel Name="RED_31">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Segment 31 Dimmer Red (0-100%)</Capability>
+ </Channel>
+ <Channel Name="GREEN_31">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Segment 31 Dimmer Green (0-100%)</Capability>
+ </Channel>
+ <Channel Name="BLUE_31">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Segment 31 Dimmer Blue (0-100%)</Capability>
+ </Channel>
+ <Channel Name="RED_32">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Segment 32 Dimmer Red (0-100%)</Capability>
+ </Channel>
+ <Channel Name="GREEN_32">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Segment 32 Dimmer Green (0-100%)</Capability>
+ </Channel>
+ <Channel Name="BLUE_32">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Segment 32 Dimmer Blue (0-100%)</Capability>
+ </Channel>
+ <Channel Name="AMBER_1">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Amber</Colour>
+  <Capability Min="0" Max="255">Segment 1 Dimmer Amber (0-100%)</Capability>
+ </Channel>
+ <Channel Name="AMBER_2">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Amber</Colour>
+  <Capability Min="0" Max="255">Segment 2 Dimmer Amber (0-100%)</Capability>
+ </Channel>
+ <Channel Name="AMBER_3">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Amber</Colour>
+  <Capability Min="0" Max="255">Segment 3 Dimmer Amber (0-100%)</Capability>
+ </Channel>
+ <Channel Name="AMBER_4">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Amber</Colour>
+  <Capability Min="0" Max="255">Segment 4 Dimmer Amber (0-100%)</Capability>
+ </Channel>
+ <Channel Name="AMBER_5">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Amber</Colour>
+  <Capability Min="0" Max="255">Segment 5 Dimmer Amber (0-100%)</Capability>
+ </Channel>
+ <Channel Name="AMBER_6">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Amber</Colour>
+  <Capability Min="0" Max="255">Segment 6 Dimmer Amber (0-100%)</Capability>
+ </Channel>
+ <Channel Name="AMBER_7">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Amber</Colour>
+  <Capability Min="0" Max="255">Segment 7 Dimmer Amber (0-100%)</Capability>
+ </Channel>
+ <Channel Name="AMBER_8">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Amber</Colour>
+  <Capability Min="0" Max="255">Segment 8 Dimmer Amber (0-100%)</Capability>
+ </Channel>
+ <Channel Name="AMBER_9">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Amber</Colour>
+  <Capability Min="0" Max="255">Segment 9 Dimmer Amber (0-100%)</Capability>
+ </Channel>
+ <Channel Name="AMBER_10">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Amber</Colour>
+  <Capability Min="0" Max="255">Segment 10 Dimmer Amber (0-100%)</Capability>
+ </Channel>
+ <Channel Name="AMBER_11">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Amber</Colour>
+  <Capability Min="0" Max="255">Segment 11 Dimmer Amber (0-100%)</Capability>
+ </Channel>
+ <Channel Name="AMBER_12">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Amber</Colour>
+  <Capability Min="0" Max="255">Segment 12 Dimmer Amber (0-100%)</Capability>
+ </Channel>
+ <Channel Name="AMBER_13">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Amber</Colour>
+  <Capability Min="0" Max="255">Segment 13 Dimmer Amber (0-100%)</Capability>
+ </Channel>
+ <Channel Name="AMBER_14">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Amber</Colour>
+  <Capability Min="0" Max="255">Segment 14 Dimmer Amber (0-100%)</Capability>
+ </Channel>
+ <Channel Name="AMBER_15">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Amber</Colour>
+  <Capability Min="0" Max="255">Segment 15 Dimmer Amber (0-100%)</Capability>
+ </Channel>
+ <Channel Name="AMBER_16">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Amber</Colour>
+  <Capability Min="0" Max="255">Segment 16 Dimmer Amber (0-100%)</Capability>
+ </Channel>
+ <Channel Name="COOL_WHITE_1">
+  <Group Byte="0">Intensity</Group>
+  <Colour>White</Colour>
+  <Capability Min="0" Max="255">Segment 1 Dimmer Cool White (0-100%)</Capability>
+ </Channel>
+ <Channel Name="COOL_WHITE_2">
+  <Group Byte="0">Intensity</Group>
+  <Colour>White</Colour>
+  <Capability Min="0" Max="255">Segment 2 Dimmer Cool White (0-100%)</Capability>
+ </Channel>
+ <Channel Name="COOL_WHITE_3">
+  <Group Byte="0">Intensity</Group>
+  <Colour>White</Colour>
+  <Capability Min="0" Max="255">Segment 3 Dimmer Cool White (0-100%)</Capability>
+ </Channel>
+ <Channel Name="COOL_WHITE_4">
+  <Group Byte="0">Intensity</Group>
+  <Colour>White</Colour>
+  <Capability Min="0" Max="255">Segment 4 Dimmer Cool White (0-100%)</Capability>
+ </Channel>
+ <Channel Name="COOL_WHITE_5">
+  <Group Byte="0">Intensity</Group>
+  <Colour>White</Colour>
+  <Capability Min="0" Max="255">Segment 5 Dimmer Cool White (0-100%)</Capability>
+ </Channel>
+ <Channel Name="COOL_WHITE_6">
+  <Group Byte="0">Intensity</Group>
+  <Colour>White</Colour>
+  <Capability Min="0" Max="255">Segment 6 Dimmer Cool White (0-100%)</Capability>
+ </Channel>
+ <Channel Name="COOL_WHITE_7">
+  <Group Byte="0">Intensity</Group>
+  <Colour>White</Colour>
+  <Capability Min="0" Max="255">Segment 7 Dimmer Cool White (0-100%)</Capability>
+ </Channel>
+ <Channel Name="COOL_WHITE_8">
+  <Group Byte="0">Intensity</Group>
+  <Colour>White</Colour>
+  <Capability Min="0" Max="255">Segment 8 Dimmer Cool White (0-100%)</Capability>
+ </Channel>
+ <Channel Name="COOL_WHITE_9">
+  <Group Byte="0">Intensity</Group>
+  <Colour>White</Colour>
+  <Capability Min="0" Max="255">Segment 9 Dimmer Cool White (0-100%)</Capability>
+ </Channel>
+ <Channel Name="COOL_WHITE_10">
+  <Group Byte="0">Intensity</Group>
+  <Colour>White</Colour>
+  <Capability Min="0" Max="255">Segment 10 Dimmer Cool White (0-100%)</Capability>
+ </Channel>
+ <Channel Name="COOL_WHITE_11">
+  <Group Byte="0">Intensity</Group>
+  <Colour>White</Colour>
+  <Capability Min="0" Max="255">Segment 11 Dimmer Cool White (0-100%)</Capability>
+ </Channel>
+ <Channel Name="COOL_WHITE_12">
+  <Group Byte="0">Intensity</Group>
+  <Colour>White</Colour>
+  <Capability Min="0" Max="255">Segment 12 Dimmer Cool White (0-100%)</Capability>
+ </Channel>
+ <Channel Name="COOL_WHITE_13">
+  <Group Byte="0">Intensity</Group>
+  <Colour>White</Colour>
+  <Capability Min="0" Max="255">Segment 13 Dimmer Cool White (0-100%)</Capability>
+ </Channel>
+ <Channel Name="COOL_WHITE_14">
+  <Group Byte="0">Intensity</Group>
+  <Colour>White</Colour>
+  <Capability Min="0" Max="255">Segment 14 Dimmer Cool White (0-100%)</Capability>
+ </Channel>
+ <Channel Name="COOL_WHITE_15">
+  <Group Byte="0">Intensity</Group>
+  <Colour>White</Colour>
+  <Capability Min="0" Max="255">Segment 15 Dimmer Cool White (0-100%)</Capability>
+ </Channel>
+ <Channel Name="COOL_WHITE_16">
+  <Group Byte="0">Intensity</Group>
+  <Colour>White</Colour>
+  <Capability Min="0" Max="255">Segment 16 Dimmer Cool White (0-100%)</Capability>
+ </Channel>
+ <Channel Name="FX_SPEED_RGB">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="255">RGB Program Speed Effect</Capability>
+ </Channel>
+ <Channel Name="FX_SPEED">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="255">Speed Effect</Capability>
+ </Channel>
+ <Mode Name="7_Channels">
+  <Channel Number="0" ActsOn="0">DIM</Channel>
+  <Channel Number="1" ActsOn="1">STROB</Channel>
+  <Channel Number="2" ActsOn="2">RED</Channel>
+  <Channel Number="3" ActsOn="3">GREEN</Channel>
+  <Channel Number="4" ActsOn="4">BLUE</Channel>
+  <Channel Number="5" ActsOn="5">AMBER</Channel>
+  <Channel Number="6" ActsOn="6">WHITE</Channel>
+ </Mode>
+ <Mode Name="13_Channels">
+  <Channel Number="0" ActsOn="0">DIM</Channel>
+  <Channel Number="1" ActsOn="1">STROB</Channel>
+  <Channel Number="2" ActsOn="2">STROB_ACW</Channel>
+  <Channel Number="3" ActsOn="3">RED</Channel>
+  <Channel Number="4" ActsOn="4">GREEN</Channel>
+  <Channel Number="5" ActsOn="5">BLUE</Channel>
+  <Channel Number="6" ActsOn="6">AMBER</Channel>
+  <Channel Number="7" ActsOn="7">WHITE</Channel>
+  <Channel Number="8" ActsOn="8">RGB_FX</Channel>
+  <Channel Number="9" ActsOn="9">FX_SPEED_PGM</Channel>
+  <Channel Number="10" ActsOn="10">BG_COL</Channel>
+  <Channel Number="11" ActsOn="11">FX</Channel>
+  <Channel Number="12" ActsOn="12">FX_SPEED_ACW</Channel>
+ </Mode>
+ <Mode Name="82_Channels">
+  <Channel Number="0" ActsOn="0">RED_1</Channel>
+  <Channel Number="1" ActsOn="1">GREEN_1</Channel>
+  <Channel Number="2" ActsOn="2">BLUE_1</Channel>
+  <Channel Number="3" ActsOn="3">RED_2</Channel>
+  <Channel Number="4" ActsOn="4">GREEN_2</Channel>
+  <Channel Number="5" ActsOn="5">BLUE_2</Channel>
+  <Channel Number="6" ActsOn="6">RED_3</Channel>
+  <Channel Number="7" ActsOn="7">GREEN_3</Channel>
+  <Channel Number="8" ActsOn="8">BLUE_3</Channel>
+  <Channel Number="9" ActsOn="9">RED_4</Channel>
+  <Channel Number="10" ActsOn="10">GREEN_4</Channel>
+  <Channel Number="11" ActsOn="11">BLUE_4</Channel>
+  <Channel Number="12" ActsOn="12">RED_5</Channel>
+  <Channel Number="13" ActsOn="13">GREEN_5</Channel>
+  <Channel Number="14" ActsOn="14">BLUE_5</Channel>
+  <Channel Number="15" ActsOn="15">RED_6</Channel>
+  <Channel Number="16" ActsOn="16">GREEN_6</Channel>
+  <Channel Number="17" ActsOn="17">BLUE_6</Channel>
+  <Channel Number="18" ActsOn="18">RED_7</Channel>
+  <Channel Number="19" ActsOn="19">GREEN_7</Channel>
+  <Channel Number="20" ActsOn="20">BLUE_7</Channel>
+  <Channel Number="21" ActsOn="21">RED_8</Channel>
+  <Channel Number="22" ActsOn="22">GREEN_8</Channel>
+  <Channel Number="23" ActsOn="23">BLUE_8</Channel>
+  <Channel Number="24" ActsOn="24">RED_9</Channel>
+  <Channel Number="25" ActsOn="25">GREEN_9</Channel>
+  <Channel Number="26" ActsOn="26">BLUE_9</Channel>
+  <Channel Number="27" ActsOn="27">RED_10</Channel>
+  <Channel Number="28" ActsOn="28">GREEN_10</Channel>
+  <Channel Number="29" ActsOn="29">BLUE_10</Channel>
+  <Channel Number="30" ActsOn="30">RED_11</Channel>
+  <Channel Number="31" ActsOn="31">GREEN_11</Channel>
+  <Channel Number="32" ActsOn="32">BLUE_11</Channel>
+  <Channel Number="33" ActsOn="33">RED_12</Channel>
+  <Channel Number="34" ActsOn="34">GREEN_12</Channel>
+  <Channel Number="35" ActsOn="35">BLUE_12</Channel>
+  <Channel Number="36" ActsOn="36">RED_13</Channel>
+  <Channel Number="37" ActsOn="37">GREEN_13</Channel>
+  <Channel Number="38" ActsOn="38">BLUE_13</Channel>
+  <Channel Number="39" ActsOn="39">RED_14</Channel>
+  <Channel Number="40" ActsOn="40">GREEN_14</Channel>
+  <Channel Number="41" ActsOn="41">BLUE_14</Channel>
+  <Channel Number="42" ActsOn="42">RED_15</Channel>
+  <Channel Number="43" ActsOn="43">GREEN_15</Channel>
+  <Channel Number="44" ActsOn="44">BLUE_15</Channel>
+  <Channel Number="45" ActsOn="45">RED_16</Channel>
+  <Channel Number="46" ActsOn="46">GREEN_16</Channel>
+  <Channel Number="47" ActsOn="47">BLUE_16</Channel>
+  <Channel Number="48" ActsOn="48">AMBER_1</Channel>
+  <Channel Number="49" ActsOn="49">AMBER_2</Channel>
+  <Channel Number="50" ActsOn="50">AMBER_3</Channel>
+  <Channel Number="51" ActsOn="51">AMBER_4</Channel>
+  <Channel Number="52" ActsOn="52">AMBER_5</Channel>
+  <Channel Number="53" ActsOn="53">AMBER_6</Channel>
+  <Channel Number="54" ActsOn="54">AMBER_7</Channel>
+  <Channel Number="55" ActsOn="55">AMBER_8</Channel>
+  <Channel Number="56" ActsOn="56">AMBER_9</Channel>
+  <Channel Number="57" ActsOn="57">AMBER_10</Channel>
+  <Channel Number="58" ActsOn="58">AMBER_11</Channel>
+  <Channel Number="59" ActsOn="59">AMBER_12</Channel>
+  <Channel Number="60" ActsOn="60">AMBER_13</Channel>
+  <Channel Number="61" ActsOn="61">AMBER_14</Channel>
+  <Channel Number="62" ActsOn="62">AMBER_15</Channel>
+  <Channel Number="63" ActsOn="63">AMBER_16</Channel>
+  <Channel Number="64" ActsOn="64">COOL_WHITE_1</Channel>
+  <Channel Number="65" ActsOn="65">COOL_WHITE_2</Channel>
+  <Channel Number="66" ActsOn="66">COOL_WHITE_3</Channel>
+  <Channel Number="67" ActsOn="67">COOL_WHITE_4</Channel>
+  <Channel Number="68" ActsOn="68">COOL_WHITE_5</Channel>
+  <Channel Number="69" ActsOn="69">COOL_WHITE_6</Channel>
+  <Channel Number="70" ActsOn="70">COOL_WHITE_7</Channel>
+  <Channel Number="71" ActsOn="71">COOL_WHITE_8</Channel>
+  <Channel Number="72" ActsOn="72">COOL_WHITE_9</Channel>
+  <Channel Number="73" ActsOn="73">COOL_WHITE_10</Channel>
+  <Channel Number="74" ActsOn="74">COOL_WHITE_11</Channel>
+  <Channel Number="75" ActsOn="75">COOL_WHITE_12</Channel>
+  <Channel Number="76" ActsOn="76">COOL_WHITE_13</Channel>
+  <Channel Number="77" ActsOn="77">COOL_WHITE_14</Channel>
+  <Channel Number="78" ActsOn="78">COOL_WHITE_15</Channel>
+  <Channel Number="79" ActsOn="79">COOL_WHITE_16</Channel>
+  <Channel Number="80" ActsOn="80">STROB</Channel>
+  <Channel Number="81" ActsOn="81">STROB_ACW</Channel>
+ </Mode>
+ <Mode Name="130_Channels">
+  <Channel Number="0" ActsOn="0">RED_1</Channel>
+  <Channel Number="1" ActsOn="1">GREEN_1</Channel>
+  <Channel Number="2" ActsOn="2">BLUE_1</Channel>
+  <Channel Number="3" ActsOn="3">RED_2</Channel>
+  <Channel Number="4" ActsOn="4">GREEN_2</Channel>
+  <Channel Number="5" ActsOn="5">BLUE_2</Channel>
+  <Channel Number="6" ActsOn="6">RED_3</Channel>
+  <Channel Number="7" ActsOn="7">GREEN_3</Channel>
+  <Channel Number="8" ActsOn="8">BLUE_3</Channel>
+  <Channel Number="9" ActsOn="9">RED_4</Channel>
+  <Channel Number="10" ActsOn="10">GREEN_4</Channel>
+  <Channel Number="11" ActsOn="11">BLUE_4</Channel>
+  <Channel Number="12" ActsOn="12">RED_5</Channel>
+  <Channel Number="13" ActsOn="13">GREEN_5</Channel>
+  <Channel Number="14" ActsOn="14">BLUE_5</Channel>
+  <Channel Number="15" ActsOn="15">RED_6</Channel>
+  <Channel Number="16" ActsOn="16">GREEN_6</Channel>
+  <Channel Number="17" ActsOn="17">BLUE_6</Channel>
+  <Channel Number="18" ActsOn="18">RED_7</Channel>
+  <Channel Number="19" ActsOn="19">GREEN_7</Channel>
+  <Channel Number="20" ActsOn="20">BLUE_7</Channel>
+  <Channel Number="21" ActsOn="21">RED_8</Channel>
+  <Channel Number="22" ActsOn="22">GREEN_8</Channel>
+  <Channel Number="23" ActsOn="23">BLUE_8</Channel>
+  <Channel Number="24" ActsOn="24">RED_9</Channel>
+  <Channel Number="25" ActsOn="25">GREEN_9</Channel>
+  <Channel Number="26" ActsOn="26">BLUE_9</Channel>
+  <Channel Number="27" ActsOn="27">RED_10</Channel>
+  <Channel Number="28" ActsOn="28">GREEN_10</Channel>
+  <Channel Number="29" ActsOn="29">BLUE_10</Channel>
+  <Channel Number="30" ActsOn="30">RED_11</Channel>
+  <Channel Number="31" ActsOn="31">GREEN_11</Channel>
+  <Channel Number="32" ActsOn="32">BLUE_11</Channel>
+  <Channel Number="33" ActsOn="33">RED_12</Channel>
+  <Channel Number="34" ActsOn="34">GREEN_12</Channel>
+  <Channel Number="35" ActsOn="35">BLUE_12</Channel>
+  <Channel Number="36" ActsOn="36">RED_13</Channel>
+  <Channel Number="37" ActsOn="37">GREEN_13</Channel>
+  <Channel Number="38" ActsOn="38">BLUE_13</Channel>
+  <Channel Number="39" ActsOn="39">RED_14</Channel>
+  <Channel Number="40" ActsOn="40">GREEN_14</Channel>
+  <Channel Number="41" ActsOn="41">BLUE_14</Channel>
+  <Channel Number="42" ActsOn="42">RED_15</Channel>
+  <Channel Number="43" ActsOn="43">GREEN_15</Channel>
+  <Channel Number="44" ActsOn="44">BLUE_15</Channel>
+  <Channel Number="45" ActsOn="45">RED_16</Channel>
+  <Channel Number="46" ActsOn="46">GREEN_16</Channel>
+  <Channel Number="47" ActsOn="47">BLUE_16</Channel>
+  <Channel Number="48" ActsOn="48">RED_17</Channel>
+  <Channel Number="49" ActsOn="49">GREEN_17</Channel>
+  <Channel Number="50" ActsOn="50">BLUE_17</Channel>
+  <Channel Number="51" ActsOn="51">RED_18</Channel>
+  <Channel Number="52" ActsOn="52">GREEN_18</Channel>
+  <Channel Number="53" ActsOn="53">BLUE_18</Channel>
+  <Channel Number="54" ActsOn="54">RED_19</Channel>
+  <Channel Number="55" ActsOn="55">GREEN_19</Channel>
+  <Channel Number="56" ActsOn="56">BLUE_19</Channel>
+  <Channel Number="57" ActsOn="57">RED_20</Channel>
+  <Channel Number="58" ActsOn="58">GREEN_20</Channel>
+  <Channel Number="59" ActsOn="59">BLUE_20</Channel>
+  <Channel Number="60" ActsOn="60">RED_21</Channel>
+  <Channel Number="61" ActsOn="61">GREEN_21</Channel>
+  <Channel Number="62" ActsOn="62">BLUE_21</Channel>
+  <Channel Number="63" ActsOn="63">RED_22</Channel>
+  <Channel Number="64" ActsOn="64">GREEN_22</Channel>
+  <Channel Number="65" ActsOn="65">BLUE_22</Channel>
+  <Channel Number="66" ActsOn="66">RED_23</Channel>
+  <Channel Number="67" ActsOn="67">GREEN_23</Channel>
+  <Channel Number="68" ActsOn="68">BLUE_23</Channel>
+  <Channel Number="69" ActsOn="69">RED_24</Channel>
+  <Channel Number="70" ActsOn="70">GREEN_24</Channel>
+  <Channel Number="71" ActsOn="71">BLUE_24</Channel>
+  <Channel Number="72" ActsOn="72">RED_25</Channel>
+  <Channel Number="73" ActsOn="73">GREEN_25</Channel>
+  <Channel Number="74" ActsOn="74">BLUE_25</Channel>
+  <Channel Number="75" ActsOn="75">RED_26</Channel>
+  <Channel Number="76" ActsOn="76">GREEN_26</Channel>
+  <Channel Number="77" ActsOn="77">BLUE_26</Channel>
+  <Channel Number="78" ActsOn="78">RED_27</Channel>
+  <Channel Number="79" ActsOn="79">GREEN_27</Channel>
+  <Channel Number="80" ActsOn="80">BLUE_27</Channel>
+  <Channel Number="81" ActsOn="81">RED_28</Channel>
+  <Channel Number="82" ActsOn="82">GREEN_28</Channel>
+  <Channel Number="83" ActsOn="83">BLUE_28</Channel>
+  <Channel Number="84" ActsOn="84">RED_29</Channel>
+  <Channel Number="85" ActsOn="85">GREEN_29</Channel>
+  <Channel Number="86" ActsOn="86">BLUE_29</Channel>
+  <Channel Number="87" ActsOn="87">RED_30</Channel>
+  <Channel Number="88" ActsOn="88">GREEN_30</Channel>
+  <Channel Number="89" ActsOn="89">BLUE_30</Channel>
+  <Channel Number="90" ActsOn="90">RED_31</Channel>
+  <Channel Number="91" ActsOn="91">GREEN_31</Channel>
+  <Channel Number="92" ActsOn="92">BLUE_31</Channel>
+  <Channel Number="93" ActsOn="93">RED_32</Channel>
+  <Channel Number="94" ActsOn="94">GREEN_32</Channel>
+  <Channel Number="95" ActsOn="95">BLUE_32</Channel>
+  <Channel Number="96" ActsOn="96">AMBER_1</Channel>
+  <Channel Number="97" ActsOn="97">AMBER_2</Channel>
+  <Channel Number="98" ActsOn="98">AMBER_3</Channel>
+  <Channel Number="99" ActsOn="99">AMBER_4</Channel>
+  <Channel Number="100" ActsOn="100">AMBER_5</Channel>
+  <Channel Number="101" ActsOn="101">AMBER_6</Channel>
+  <Channel Number="102" ActsOn="102">AMBER_7</Channel>
+  <Channel Number="103" ActsOn="103">AMBER_8</Channel>
+  <Channel Number="104" ActsOn="104">AMBER_9</Channel>
+  <Channel Number="105" ActsOn="105">AMBER_10</Channel>
+  <Channel Number="106" ActsOn="106">AMBER_11</Channel>
+  <Channel Number="107" ActsOn="107">AMBER_12</Channel>
+  <Channel Number="108" ActsOn="108">AMBER_13</Channel>
+  <Channel Number="109" ActsOn="109">AMBER_14</Channel>
+  <Channel Number="110" ActsOn="110">AMBER_15</Channel>
+  <Channel Number="111" ActsOn="111">AMBER_16</Channel>
+  <Channel Number="112" ActsOn="112">COOL_WHITE_1</Channel>
+  <Channel Number="113" ActsOn="113">COOL_WHITE_2</Channel>
+  <Channel Number="114" ActsOn="114">COOL_WHITE_3</Channel>
+  <Channel Number="115" ActsOn="115">COOL_WHITE_4</Channel>
+  <Channel Number="116" ActsOn="116">COOL_WHITE_5</Channel>
+  <Channel Number="117" ActsOn="117">COOL_WHITE_6</Channel>
+  <Channel Number="118" ActsOn="118">COOL_WHITE_7</Channel>
+  <Channel Number="119" ActsOn="119">COOL_WHITE_8</Channel>
+  <Channel Number="120" ActsOn="120">COOL_WHITE_9</Channel>
+  <Channel Number="121" ActsOn="121">COOL_WHITE_10</Channel>
+  <Channel Number="122" ActsOn="122">COOL_WHITE_11</Channel>
+  <Channel Number="123" ActsOn="123">COOL_WHITE_12</Channel>
+  <Channel Number="124" ActsOn="124">COOL_WHITE_13</Channel>
+  <Channel Number="125" ActsOn="125">COOL_WHITE_14</Channel>
+  <Channel Number="126" ActsOn="126">COOL_WHITE_15</Channel>
+  <Channel Number="127" ActsOn="127">COOL_WHITE_16</Channel>
+  <Channel Number="128" ActsOn="128">STROB</Channel>
+  <Channel Number="129" ActsOn="129">STROB_ACW</Channel>
+ </Mode>
+ <Mode Name="135_Channels">
+  <Channel Number="0" ActsOn="0">RED_1</Channel>
+  <Channel Number="1" ActsOn="1">GREEN_1</Channel>
+  <Channel Number="2" ActsOn="2">BLUE_1</Channel>
+  <Channel Number="3" ActsOn="3">RED_2</Channel>
+  <Channel Number="4" ActsOn="4">GREEN_2</Channel>
+  <Channel Number="5" ActsOn="5">BLUE_2</Channel>
+  <Channel Number="6" ActsOn="6">RED_3</Channel>
+  <Channel Number="7" ActsOn="7">GREEN_3</Channel>
+  <Channel Number="8" ActsOn="8">BLUE_3</Channel>
+  <Channel Number="9" ActsOn="9">RED_4</Channel>
+  <Channel Number="10" ActsOn="10">GREEN_4</Channel>
+  <Channel Number="11" ActsOn="11">BLUE_4</Channel>
+  <Channel Number="12" ActsOn="12">RED_5</Channel>
+  <Channel Number="13" ActsOn="13">GREEN_5</Channel>
+  <Channel Number="14" ActsOn="14">BLUE_5</Channel>
+  <Channel Number="15" ActsOn="15">RED_6</Channel>
+  <Channel Number="16" ActsOn="16">GREEN_6</Channel>
+  <Channel Number="17" ActsOn="17">BLUE_6</Channel>
+  <Channel Number="18" ActsOn="18">RED_7</Channel>
+  <Channel Number="19" ActsOn="19">GREEN_7</Channel>
+  <Channel Number="20" ActsOn="20">BLUE_7</Channel>
+  <Channel Number="21" ActsOn="21">RED_8</Channel>
+  <Channel Number="22" ActsOn="22">GREEN_8</Channel>
+  <Channel Number="23" ActsOn="23">BLUE_8</Channel>
+  <Channel Number="24" ActsOn="24">RED_9</Channel>
+  <Channel Number="25" ActsOn="25">GREEN_9</Channel>
+  <Channel Number="26" ActsOn="26">BLUE_9</Channel>
+  <Channel Number="27" ActsOn="27">RED_10</Channel>
+  <Channel Number="28" ActsOn="28">GREEN_10</Channel>
+  <Channel Number="29" ActsOn="29">BLUE_10</Channel>
+  <Channel Number="30" ActsOn="30">RED_11</Channel>
+  <Channel Number="31" ActsOn="31">GREEN_11</Channel>
+  <Channel Number="32" ActsOn="32">BLUE_11</Channel>
+  <Channel Number="33" ActsOn="33">RED_12</Channel>
+  <Channel Number="34" ActsOn="34">GREEN_12</Channel>
+  <Channel Number="35" ActsOn="35">BLUE_12</Channel>
+  <Channel Number="36" ActsOn="36">RED_13</Channel>
+  <Channel Number="37" ActsOn="37">GREEN_13</Channel>
+  <Channel Number="38" ActsOn="38">BLUE_13</Channel>
+  <Channel Number="39" ActsOn="39">RED_14</Channel>
+  <Channel Number="40" ActsOn="40">GREEN_14</Channel>
+  <Channel Number="41" ActsOn="41">BLUE_14</Channel>
+  <Channel Number="42" ActsOn="42">RED_15</Channel>
+  <Channel Number="43" ActsOn="43">GREEN_15</Channel>
+  <Channel Number="44" ActsOn="44">BLUE_15</Channel>
+  <Channel Number="45" ActsOn="45">RED_16</Channel>
+  <Channel Number="46" ActsOn="46">GREEN_16</Channel>
+  <Channel Number="47" ActsOn="47">BLUE_16</Channel>
+  <Channel Number="48" ActsOn="48">RED_17</Channel>
+  <Channel Number="49" ActsOn="49">GREEN_17</Channel>
+  <Channel Number="50" ActsOn="50">BLUE_17</Channel>
+  <Channel Number="51" ActsOn="51">RED_18</Channel>
+  <Channel Number="52" ActsOn="52">GREEN_18</Channel>
+  <Channel Number="53" ActsOn="53">BLUE_18</Channel>
+  <Channel Number="54" ActsOn="54">RED_19</Channel>
+  <Channel Number="55" ActsOn="55">GREEN_19</Channel>
+  <Channel Number="56" ActsOn="56">BLUE_19</Channel>
+  <Channel Number="57" ActsOn="57">RED_20</Channel>
+  <Channel Number="58" ActsOn="58">GREEN_20</Channel>
+  <Channel Number="59" ActsOn="59">BLUE_20</Channel>
+  <Channel Number="60" ActsOn="60">RED_21</Channel>
+  <Channel Number="61" ActsOn="61">GREEN_21</Channel>
+  <Channel Number="62" ActsOn="62">BLUE_21</Channel>
+  <Channel Number="63" ActsOn="63">RED_22</Channel>
+  <Channel Number="64" ActsOn="64">GREEN_22</Channel>
+  <Channel Number="65" ActsOn="65">BLUE_22</Channel>
+  <Channel Number="66" ActsOn="66">RED_23</Channel>
+  <Channel Number="67" ActsOn="67">GREEN_23</Channel>
+  <Channel Number="68" ActsOn="68">BLUE_23</Channel>
+  <Channel Number="69" ActsOn="69">RED_24</Channel>
+  <Channel Number="70" ActsOn="70">GREEN_24</Channel>
+  <Channel Number="71" ActsOn="71">BLUE_24</Channel>
+  <Channel Number="72" ActsOn="72">RED_25</Channel>
+  <Channel Number="73" ActsOn="73">GREEN_25</Channel>
+  <Channel Number="74" ActsOn="74">BLUE_25</Channel>
+  <Channel Number="75" ActsOn="75">RED_26</Channel>
+  <Channel Number="76" ActsOn="76">GREEN_26</Channel>
+  <Channel Number="77" ActsOn="77">BLUE_26</Channel>
+  <Channel Number="78" ActsOn="78">RED_27</Channel>
+  <Channel Number="79" ActsOn="79">GREEN_27</Channel>
+  <Channel Number="80" ActsOn="80">BLUE_27</Channel>
+  <Channel Number="81" ActsOn="81">RED_28</Channel>
+  <Channel Number="82" ActsOn="82">GREEN_28</Channel>
+  <Channel Number="83" ActsOn="83">BLUE_28</Channel>
+  <Channel Number="84" ActsOn="84">RED_29</Channel>
+  <Channel Number="85" ActsOn="85">GREEN_29</Channel>
+  <Channel Number="86" ActsOn="86">BLUE_29</Channel>
+  <Channel Number="87" ActsOn="87">RED_30</Channel>
+  <Channel Number="88" ActsOn="88">GREEN_30</Channel>
+  <Channel Number="89" ActsOn="89">BLUE_30</Channel>
+  <Channel Number="90" ActsOn="90">RED_31</Channel>
+  <Channel Number="91" ActsOn="91">GREEN_31</Channel>
+  <Channel Number="92" ActsOn="92">BLUE_31</Channel>
+  <Channel Number="93" ActsOn="93">RED_32</Channel>
+  <Channel Number="94" ActsOn="94">GREEN_32</Channel>
+  <Channel Number="95" ActsOn="95">BLUE_32</Channel>
+  <Channel Number="96" ActsOn="96">AMBER_1</Channel>
+  <Channel Number="97" ActsOn="97">AMBER_2</Channel>
+  <Channel Number="98" ActsOn="98">AMBER_3</Channel>
+  <Channel Number="99" ActsOn="99">AMBER_4</Channel>
+  <Channel Number="100" ActsOn="100">AMBER_5</Channel>
+  <Channel Number="101" ActsOn="101">AMBER_6</Channel>
+  <Channel Number="102" ActsOn="102">AMBER_7</Channel>
+  <Channel Number="103" ActsOn="103">AMBER_8</Channel>
+  <Channel Number="104" ActsOn="104">AMBER_9</Channel>
+  <Channel Number="105" ActsOn="105">AMBER_10</Channel>
+  <Channel Number="106" ActsOn="106">AMBER_11</Channel>
+  <Channel Number="107" ActsOn="107">AMBER_12</Channel>
+  <Channel Number="108" ActsOn="108">AMBER_13</Channel>
+  <Channel Number="109" ActsOn="109">AMBER_14</Channel>
+  <Channel Number="110" ActsOn="110">AMBER_15</Channel>
+  <Channel Number="111" ActsOn="111">AMBER_16</Channel>
+  <Channel Number="112" ActsOn="112">COOL_WHITE_1</Channel>
+  <Channel Number="113" ActsOn="113">COOL_WHITE_2</Channel>
+  <Channel Number="114" ActsOn="114">COOL_WHITE_3</Channel>
+  <Channel Number="115" ActsOn="115">COOL_WHITE_4</Channel>
+  <Channel Number="116" ActsOn="116">COOL_WHITE_5</Channel>
+  <Channel Number="117" ActsOn="117">COOL_WHITE_6</Channel>
+  <Channel Number="118" ActsOn="118">COOL_WHITE_7</Channel>
+  <Channel Number="119" ActsOn="119">COOL_WHITE_8</Channel>
+  <Channel Number="120" ActsOn="120">COOL_WHITE_9</Channel>
+  <Channel Number="121" ActsOn="121">COOL_WHITE_10</Channel>
+  <Channel Number="122" ActsOn="122">COOL_WHITE_11</Channel>
+  <Channel Number="123" ActsOn="123">COOL_WHITE_12</Channel>
+  <Channel Number="124" ActsOn="124">COOL_WHITE_13</Channel>
+  <Channel Number="125" ActsOn="125">COOL_WHITE_14</Channel>
+  <Channel Number="126" ActsOn="126">COOL_WHITE_15</Channel>
+  <Channel Number="127" ActsOn="127">COOL_WHITE_16</Channel>
+  <Channel Number="128" ActsOn="128">STROB</Channel>
+  <Channel Number="129" ActsOn="129">STROB_ACW</Channel>
+  <Channel Number="130" ActsOn="130">RGB_FX</Channel>
+  <Channel Number="131" ActsOn="131">FX_SPEED_RGB</Channel>
+  <Channel Number="132" ActsOn="132">BG_COL</Channel>
+  <Channel Number="133" ActsOn="133">FX</Channel>
+  <Channel Number="134" ActsOn="134">FX_SPEED</Channel>
+ </Mode>
+ <Physical>
+  <Bulb Type="" Lumens="0" ColourTemperature="0"/>
+  <Dimensions Weight="2.15" Width="100" Height="1000" Depth="55"/>
+  <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+  <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+  <Technical PowerConsumption="2" DmxConnector="3-pin"/>
+ </Physical>
+</FixtureDefinition>
