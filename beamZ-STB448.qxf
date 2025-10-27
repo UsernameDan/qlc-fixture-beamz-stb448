@@ -791,16 +791,15 @@
   <Capability Min="0" Max="255">Speed Effect</Capability>
  </Channel>
  <Mode Name="7_Channels">
-  <Channel Number="0" ActsOn="0">DIM</Channel>
-  <Channel Number="1" ActsOn="1">Strobe</Channel>
-  <Channel Number="2" ActsOn="2">Red</Channel>
-  <Channel Number="3" ActsOn="3">Green</Channel>
-  <Channel Number="4" ActsOn="4">Blue</Channel>
-  <Channel Number="5" ActsOn="5">Amber</Channel>
-  <Channel Number="6" ActsOn="6">White</Channel>
+  <Channel Number="0" ActsOn="0">Strobe</Channel>
+  <Channel Number="1" ActsOn="1">Red</Channel>
+  <Channel Number="2" ActsOn="2">Green</Channel>
+  <Channel Number="3" ActsOn="3">Blue</Channel>
+  <Channel Number="4" ActsOn="4">Amber</Channel>
+  <Channel Number="5" ActsOn="5">White</Channel>
  </Mode>
  <Mode Name="13_Channels">
-  <Channel Number="0" ActsOn="0">DIM</Channel>
+  <Channel Number="0" ActsOn="0">Master Dimmer</Channel>
   <Channel Number="1" ActsOn="1">Strobe</Channel>
   <Channel Number="2" ActsOn="2">Strobe ACW</Channel>
   <Channel Number="3" ActsOn="3">Red</Channel>
